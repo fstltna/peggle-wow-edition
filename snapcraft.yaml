@@ -20,7 +20,7 @@ environment:
   SOMMELIER_STRICT: "1"                                    # Make Sommelier exit when unset variable is used. (useful to find bugs in sommelier)
 
 apps:
-  peggle-wow-edition
+  peggle-wow-edition:
     extensions: [ gnome-3-28 ]
     command: bin/sommelier run-exe
     environment:
